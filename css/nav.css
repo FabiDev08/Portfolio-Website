@@ -5,14 +5,24 @@ nav, .nav__links{
 }
 
 nav{
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
+    padding: 0 40px 0 40px;
 }
 
 .nav__links{
-    gap: 2rem;
+    gap: 2rem; 
     list-style: none;
+    background-color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+.logo{
+    background-color: #eeeeee;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
 }
 
 .logo:hover{
