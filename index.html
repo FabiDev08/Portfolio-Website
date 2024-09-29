@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/segments.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Your Name</div>
+        <div>
+            <ul class="nav__links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Your Name</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-menu__icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hamburger-menu__links">
+                <li><a href="#" onclick="toggleMenu()">About</a></li>
+                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
